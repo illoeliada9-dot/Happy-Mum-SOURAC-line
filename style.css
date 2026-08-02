@@ -5,57 +5,71 @@
 }
 
 body{
-    background:linear-gradient(135deg,#ffe4e1,#fff8dc);
-    font-family:Georgia,serif;
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    min-height:100vh;
+    background:linear-gradient(135deg,#f8d7da,#fff8dc);
+    font-family:Georgia,serif;
 }
 
 .accueil{
-    width:90%;
-    max-width:500px;
-    background:white;
-    padding:40px;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.2);
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
 }
 
-.accueil h1{
+.livre{
+    width:360px;
+    background:#7b3f00;
+    color:white;
+    border-radius:12px;
+    padding:40px 25px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+    border:6px solid #c9a227;
+}
+
+.livre h1{
     font-size:70px;
     margin-bottom:20px;
 }
 
-.accueil h2{
-    font-size:42px;
-    color:#b22222;
+.livre h2{
+    font-size:30px;
     margin-bottom:10px;
 }
 
-.accueil h3{
-    font-size:32px;
+.livre h3{
+    font-size:24px;
     margin-bottom:20px;
+    color:#ffe082;
 }
 
-.accueil p{
-    font-size:22px;
+.livre p{
+    line-height:1.7;
     margin-bottom:30px;
-    line-height:1.6;
+    font-size:18px;
 }
 
 button{
-    background:#b22222;
-    color:white;
+    background:#ffd54f;
+    color:#5d4037;
     border:none;
-    padding:15px 35px;
-    border-radius:50px;
-    font-size:20px;
+    padding:14px 28px;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
     cursor:pointer;
     transition:.3s;
 }
 
 button:hover{
     transform:scale(1.05);
+}
+
+.livre-cache{
+    display:none;
 }
