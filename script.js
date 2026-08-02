@@ -11,10 +11,9 @@ function ouvrirLivre() {
 
     const couverture = document.querySelector(".couverture");
 
-setTimeout(() => {
     couverture.classList.add("couverture-ouverte");
-}, 2000);
-    couverture.classList.add("couverture-ouverte");
+    
+
     
     const musique = document.getElementById("musique");
     musique.play();
