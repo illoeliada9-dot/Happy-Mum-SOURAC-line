@@ -98,6 +98,10 @@ button:hover{
     text-align:center;
     box-shadow:0 20px 40px rgba(0,0,0,.35);
     margin:auto;
+        transform-origin: left;
+    transition: 1.5s ease;
+    position: relative;
+    z-index: 2;
 }
 
 .couverture h1{
@@ -115,4 +119,7 @@ button:hover{
 
 .couverture p{
     font-size:20px;
+}
+.couverture-ouverte{
+    transform: perspective(1200px) rotateY(-120deg);
 }
