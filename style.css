@@ -147,11 +147,3 @@ button:hover{
     }
 }
 
-.page-2{
-    display:none;
-}
-
-.page-visible{
-    display:block;
-    animation: apparition 1s ease;
-}
