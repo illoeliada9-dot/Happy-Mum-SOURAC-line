@@ -1,11 +1,5 @@
-function ouvrirLivre() {
+ouvrirLivre() {
 
-    function pageSuivante(){
-
-    const page2 = document.querySelector(".page-2");
-
-    page2.classList.add("page-visible");
-}
     alert("Bienvenue dans le livre d'anniversaire de Maman ❤️");
 
     const livre = document.getElementById("livre");
@@ -19,4 +13,12 @@ function ouvrirLivre() {
 
     const musique = document.getElementById("musique");
     musique.play();
+}
+
+
+function pageSuivante(){
+
+    const page2 = document.querySelector(".page-2");
+
+    page2.classList.add("page-visible");
 }
