@@ -22,3 +22,11 @@ function pageSuivante(){
 
     page2.classList.add("page-visible");
 }
+
+
+function pageTrois(){
+
+    const page3 = document.querySelector(".page-3");
+
+    page3.classList.add("page-visible");
+}
