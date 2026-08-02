@@ -84,3 +84,35 @@ button:hover{
     pointer-events:auto;
 }
 
+.couverture{
+    width:360px;
+    height:450px;
+    background:#7b3f00;
+    color:white;
+    border-radius:12px;
+    border:6px solid #c9a227;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+    margin:auto;
+}
+
+.couverture h1{
+    font-size:60px;
+}
+
+.couverture h2{
+    font-size:28px;
+}
+
+.couverture h3{
+    font-size:35px;
+    color:#ffe082;
+}
+
+.couverture p{
+    font-size:20px;
+}
