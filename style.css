@@ -70,19 +70,21 @@ button:hover{
     transform:scale(1.05);
 }
 
+
 .livre-cache{
     opacity:0;
-    transform: perspective(1000px) rotateY(-90deg);
+    transform:perspective(1000px) rotateY(-90deg);
     transform-origin:left;
     pointer-events:none;
-    transition: 3s ease;
+    transition:3s ease;
 }
 
 .livre-ouvert{
     opacity:1;
-    transform: perspective(1000px) rotateY(0deg);
+    transform:perspective(1000px) rotateY(0deg);
     pointer-events:auto;
 }
+
 
 .couverture{
     width:360px;
@@ -98,10 +100,10 @@ button:hover{
     text-align:center;
     box-shadow:0 20px 40px rgba(0,0,0,.35);
     margin:auto;
-        transform-origin: left;
-    transition: 5s ease;
-    position: relative;
-    z-index: 2;
+    transform-origin:left;
+    transition:5s ease;
+    position:relative;
+    z-index:2;
 }
 
 .couverture h1{
@@ -120,22 +122,35 @@ button:hover{
 .couverture p{
     font-size:20px;
 }
+
 .couverture-ouverte{
-    transform: perspective(1200px) rotateY(-120deg);
+    transform:perspective(1200px) rotateY(-120deg);
 }
 
-.page-2{
+
+/* Gestion des pages */
+
+.page{
+    animation:apparition 1s ease;
+}
+
+
+.page-2,
+.page-3,
+.page-4,
+.page-5{
     display:none;
 }
 
+
 .page-visible{
     display:block;
-}
-.page{
-    animation: apparition 1s ease;
+    animation:apparition 1s ease;
 }
 
+
 @keyframes apparition{
+
     from{
         opacity:0;
         transform:translateX(50px);
@@ -145,8 +160,5 @@ button:hover{
         opacity:1;
         transform:translateX(0);
     }
-}
 
-.page-3{
-    display:none;
 }
