@@ -75,7 +75,7 @@ button:hover{
     transform: perspective(1000px) rotateY(-90deg);
     transform-origin:left;
     pointer-events:none;
-    transition:1.5s ease;
+    transition:5s ease;
 }
 
 .livre-ouvert{
