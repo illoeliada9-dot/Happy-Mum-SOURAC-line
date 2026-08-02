@@ -30,3 +30,19 @@ function pageTrois(){
 
     page3.classList.add("page-visible");
 }
+
+
+function pageQuatre(){
+
+    const page4 = document.querySelector(".page-4");
+
+    page4.classList.add("page-visible");
+}
+
+
+function pageCinq(){
+
+    const page5 = document.querySelector(".page-5");
+
+    page5.classList.add("page-visible");
+}
