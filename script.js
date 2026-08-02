@@ -46,3 +46,29 @@ function pageCinq(){
 
     page5.classList.add("page-visible");
 }
+
+
+function pageGalerie(){
+
+    const page6 = document.querySelector(".page-6");
+
+    page6.classList.add("page-visible");
+}
+
+
+function ouvrirPhoto(source){
+
+    const zoom = document.getElementById("photoZoom");
+    const image = document.getElementById("photoAgrandie");
+
+    image.src = source;
+    zoom.style.display = "flex";
+}
+
+
+function fermerPhoto(){
+
+    const zoom = document.getElementById("photoZoom");
+
+    zoom.style.display = "none";
+}
