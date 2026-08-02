@@ -123,3 +123,11 @@ button:hover{
 .couverture-ouverte{
     transform: perspective(1200px) rotateY(-120deg);
 }
+
+.page-2{
+    display:none;
+}
+
+.page-visible{
+    display:block;
+}
